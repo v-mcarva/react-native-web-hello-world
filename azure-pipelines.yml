@@ -23,5 +23,5 @@ steps:
 - task: Cache@2
   displayName: Cache
   inputs:
-    key: 'npm | "$(Agent.OS)" | $(System.DefaultWorkingDirectory)/_v-mcarva_react-native-web-hello-world/package.json'
-    path: '$(System.DefaultWorkingDirectory)/_v-mcarva_react-native-web-hello-world/node_modules'
+    key: 'npm | "$(Agent.OS)" | $(System.DefaultWorkingDirectory)/package.json'
+    path: '$(System.DefaultWorkingDirectory)/node_modules'
